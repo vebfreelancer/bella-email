@@ -1,0 +1,377 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>HTML Template</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet">
+	<style>
+		body {
+			width: 100% !important;
+			-webkit-text-size-adjust: 100%;
+			-ms-text-size-adjust: 100%;
+			margin: 0;
+			padding: 0;
+			line-height: 100%;
+		}
+
+		[style*="Raleway"] {font-family: 'Raleway', arial, sans-serif !important;}
+
+		img {
+			outline: none;
+			text-decoration: none;
+			border:none;
+			-ms-interpolation-mode: bicubic;
+			max-width: 100%!important;
+			margin: 0;
+			padding: 0;
+			display: block;
+		}
+    
+		table td {
+			border-collapse: collapse;
+		}
+    
+		table {
+			border-collapse: collapse;
+			mso-table-lspace: 0pt;
+			mso-table-rspace: 0pt;
+		}
+
+		.menu a {
+			color: #6c6c6c;
+			font-weight: 400;
+			font-size: 14px;
+			letter-spacing: 0.20px;
+			text-decoration: none;
+		}
+
+		.td-pr {
+			padding-right: 30px;
+		}
+		.header-td {
+			padding-top: 40px;
+			padding-bottom: 40px;
+		}
+		.features-td {
+			padding-top: 100px;
+			padding-bottom: 100px;
+		}
+		.features-td p {
+			font-weight: 400;
+			font-size: 14px;
+			color: #8c8c8c;
+			line-height: 26px;
+			letter-spacing: 0.28px;
+		}
+		.blockquote-td {
+			padding-top: 100px;
+			padding-bottom: 50px;
+		}
+		.block-td p {
+			font-weight: 400;
+			font-size: 14px;
+			color: #8c8c8c;
+			line-height: 30px;
+			letter-spacing: 0.28px;
+		}
+		.blockquote-column {
+			
+		}
+		.blockquote-column td {
+			display: block;
+		}
+		.blockquote-text {
+			border-top: 1px solid #e6e6e6;
+			border-right: 1px solid #e6e6e6;
+			border-left: 1px solid #e6e6e6;
+			border-bottom: 1px solid #e6e6e6;
+			padding-top: 40px;
+			padding-bottom: 40px;
+		}
+		.author {
+			padding-top: 20px;
+		}
+		.author h3 {
+			margin-top: 20px;
+			color: #686868;
+			font-weight: 600;
+			font-size: 14px;
+			letter-spacing: 0.56px;
+			margin-bottom: 5px;
+		}
+		.autor p {
+			color: #8c8c8c;
+			font-weight: 300;
+			font-size: 14px;
+			letter-spacing: 0.52px;
+			margin: 0;
+		}
+		.footer-td {
+			padding-top: 80px;
+			padding-bottom: 80px;
+			border-bottom: 2px solid #bcc9dd;
+		}
+		.footer-logo a {
+			font-weight: 400;
+			font-size: 30px;
+			color: #ffffff;
+			text-decoration: none;
+		}
+		.footer-menu-td {
+			padding-top: 60px;
+			padding-bottom: 35px;
+		}
+		.footer-menu-td a {
+			color: #8792a3;
+			font-weight: 400;
+			font-size: 14px;
+			letter-spacing: 0.20px;
+			text-decoration: none;
+		}
+		.copy-td {
+			color: #bcc9dd;
+			font-size: 12px;
+			font-weight: 400;
+			letter-spacing: 0.31px;
+		}
+		.copy-td a {
+			color: #bcc9dd;
+			font-weight: 600;
+			text-decoration: none;
+		}
+		@media (max-width: 870px) {
+			.table-850 {
+				width: 600px !important;
+			}
+			.table-600 {
+				width: 550px !important;
+			}
+			.blockquote-column {
+				width: 260px !important;
+			}
+			.features-td {
+				padding-bottom: 50px !important;
+			}
+			.features-td td {
+				display: block !important;
+				margin-bottom: 50px !important;
+			}
+		}
+		@media (max-width: 620px) {
+			.table-850 {
+				width: 400px !important;
+			}
+			.table-600 {
+				width: 320px !important;
+			}
+			.features-td {
+				padding-top: 50px !important;
+				padding-bottom: 0 !important;
+			}
+			.blockquote-td {
+				padding-top: 50px !important;
+				padding-bottom: 0 !important;
+			}
+			.blockquote-td tr {
+				display: block !important;
+			}
+			.blockquote-column p br {
+				display: none !important;
+			}
+			.block-td {
+				display: block !important;
+				margin-bottom: 20px !important;
+				padding: 0 !important;
+			}
+			.block-td h3 {
+				margin-bottom: 0 !important;
+			}
+			.block-td p {
+				padding-right: 10px !important;
+				padding-left: 10px !important;
+				margin-top: 0 !important;
+			}
+			.logo {
+				width: 200px !important;
+				display: block !important;
+				text-align: center !important;
+				margin: 0 auto !important;
+				margin-bottom: 20px !important;
+			}
+			.logo img {
+				width: 66px !important;
+				height: 22px !important;
+				margin: 0 auto !important;
+			}
+			.menu {
+				display: block !important;
+				margin: 0 auto;
+			}
+			.menu table {
+				margin: auto;
+			}
+			.footer-td {
+				padding-top: 50px !important;
+				padding-bottom: 50px !important;
+			}
+			.footer-menu-td {
+				padding-top: 45px !important;
+    			padding-bottom: 30px !important;
+			}
+		}
+		@media (max-width: 420px) {
+			.table-850 {
+				width: 320px !important;
+			}
+			.table-600 {
+				width: 310px !important;
+			}
+		}
+	</style>
+</head>
+
+<body style="margin: 0; padding: 0;">
+	<div style="font-size:0px;font-color:#ffffff;opacity:0;visibility:hidden;width:0;height:0;display:none;">Тестовое письмо</div>
+	<table cellpadding="0" cellspacing="0" width="100%" bgcolor="#ec5483">
+        <tr>
+            <td>
+		        <table class="main table-850" cellpadding="0" cellspacing="0" width="850" align="center">
+                    <tr>
+                        <td height="30" width="850"></td>
+                    </tr>
+					<tr>
+						<td bgcolor="#FFFFFF" class="header-td">
+							<table class="table-600" cellpadding="0" cellspacing="0" width="600" align="center">
+								<tr>
+									<td align="left" class="logo">
+										<img src="http://krashevskyi.in.ua/bella/images/bella.jpg" alt="logo" />
+									</td>
+									<td align="right" class="menu">
+										<table cellpadding="0" cellspacing="0">
+											<tr>
+												<td class="td-pr"><a href="#"	style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">Team</a></td>
+												<td class="td-pr"><a href="#"	style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">Features</a></td>
+												<td class="td-pr"><a href="#"	style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">Pricing</a></td>
+												<td><a href="#"	style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">Contact</a></td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td class="banner-id">
+							<a href="#">
+								<img src="http://krashevskyi.in.ua/bella/images/bg.jpg" alt="banner" />
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td class="features-td" bgcolor="#ffffff">
+							<table class="table-600" cellpadding="0" cellspacing="0" width="600" align="center">
+								<tr>
+									<td align="center">
+										<img src="http://krashevskyi.in.ua/bella/images/return.jpg" alt="return">
+										<p style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">Phoncus ut, imperdiet vel <br /> venenatis vitae justo ullam <br /> dictum felis eu pede mollis <br /> pretium massa.</p>
+										<a href="#"><img src="http://krashevskyi.in.ua/bella/images/read_more.jpg" alt="" /></a>
+									</td>
+									<td align="center">
+										<img src="http://krashevskyi.in.ua/bella/images/stopwatch.jpg" alt="watch">
+										<p style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">Phoncus ut, imperdiet vel <br /> venenatis vitae justo ullam <br /> dictum felis eu pede mollis <br /> pretium massa.</p>
+										<a href="#"><img src="http://krashevskyi.in.ua/bella/images/read_more.jpg" alt="" /></a>
+									</td>
+									<td align="center">
+										<img src="http://krashevskyi.in.ua/bella/images/reminders.jpg" alt="reminders">
+										<p style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">Phoncus ut, imperdiet vel <br /> venenatis vitae justo ullam <br /> dictum felis eu pede mollis <br /> pretium massa.</p>
+										<a href="#"><img src="http://krashevskyi.in.ua/bella/images/read_more.jpg" alt="" /></a>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td class="blockquote-td"  bgcolor="#fcfcfc">
+							<table class="table-600" cellpadding="0" cellspacing="0" width="600" align="center">
+								<tr>
+									<td class="block-td" style="padding-right: 20px;">
+										<table class="blockquote-column" cellpadding="0" cellspacing="0" align="center" width="280">
+											<tr>
+												<td class="blockquote-text" align="center">
+													<p style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">
+														Donec quam felis ultricies nec pel <br />lentesque pretium quis sem massa <br />quis enim. Donec pede justo fring<br />illa vel aliquet nec vulputate eget <br />magnis montes ligula eget.
+													</p>
+												</td>
+											</tr>
+											<tr>
+												<td class="author"  style="font-family: Arial, Helvetica, sans-serif, 'Raleway';" align="center">
+													<img src="http://krashevskyi.in.ua/bella/images/author_1.jpg" alt="autor">
+													<h3>Alexander Doe</h3>
+													<p>Senior UX Developer</p>
+												</td>
+											</tr>
+										</table>
+									</td>
+									<td class="block-td"> 
+										<table class="blockquote-column" cellpadding="0" cellspacing="0" align="center" width="280">
+											<tr>
+												<td class="blockquote-text" align="center">
+													<p style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">
+														Donec quam felis ultricies nec pel <br />lentesque pretium quis sem massa <br />quis enim. Donec pede justo fring<br />illa vel aliquet nec vulputate eget <br />magnis montes ligula eget.
+													</p>
+												</td>
+											</tr>
+											<tr>
+												<td class="author" style="font-family: Arial, Helvetica, sans-serif, 'Raleway';" align="center">
+													<img src="http://krashevskyi.in.ua/bella/images/author_2.jpg" alt="autor" />
+													<h3>Laurie Doe</h3>
+													<p>Marketing Expert</p>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td class="footer-td" bgcolor="#38404b">
+							<table class="table-600" cellpadding="0" cellspacing="0" width="600" align="center">
+								<tr>
+									<td class="footer-logo" align="center">
+										<a href="#" style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">Bella</a>
+									</td>
+								</tr>
+								<tr>
+									<td class="footer-menu-td" align="center">
+										<table class="table-600" cellpadding="0" cellspacing="0" width="350" align="center">
+											<tr>
+												<td align="center"><a href="#"  style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">About us</a></td>
+												<td align="center"><a href="#"  style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">Team</a></td>
+												<td align="center"><a href="#"  style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">News</a></td>
+												<td align="center"><a href="#"  style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">Contact Us</a></td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td class="copy-td" align="center"  style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">
+										&copy; 2014 <a href="#">pixelhint.com</a>. All Rights Reserved
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+                        <td height="30" width="850"></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+	</table>
+</body>
+
+</html>
